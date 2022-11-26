@@ -8,4 +8,4 @@ class Configuration(object):
       #DEBUG = False
       SECRET_KEY = 'ArkonDataSuperSecretKey1234@"$]*&('
       STATIC_DIR = os.path.join(BASE_DIR, 'static')
-      API_KEY_COPOMEX = 'c7ed64ec-1490-4ed7-8403-eb28f2b684a2'
+      API_KEY_COPOMEX = '3c2d14a5-4c57-444e-b1a0-418f59eabd6a'
