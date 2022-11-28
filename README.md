@@ -3,7 +3,7 @@ Adquisición de Datos y Consumo de API del Metro Bus de la CDMX
 
 
 ![Diagrama Pipeline para la Adquisición de Datos y Consumo de API del Metro Bus de la CDMX]
-
+(https://github.com/jaguaru/api-metro-bus/blob/main/api/static/Diagrama%20API%20MetroBus%20CDMX.jpeg)
 
 
 Descargar Repositorio:
