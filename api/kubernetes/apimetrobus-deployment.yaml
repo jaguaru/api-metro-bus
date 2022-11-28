@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api-metro-bus
+
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: api-metro-bus
+  template:
+    metadata:
+      labels:
+        app: api-metro-bus
+    spec:
+      containers:
+        - name: api-metro-bus-container
+          image: api-metro-bus
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 7001
+              protocol: TCP
